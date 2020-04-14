@@ -23,3 +23,16 @@ Logs are stored under `./logs` folder with unique folder name. Tensorboard logs 
 tensorboard --logdir ${LOGDIR} --host 0.0.0.0
 ```
 
+## Results
+
+Training a `resnet50` backbone for classification results in :
+
+### Accuracy 
+
+
+
+![](./imgs/accuracy.png)
+
+### Loss 
+
+![](./imgs/loss.png)
