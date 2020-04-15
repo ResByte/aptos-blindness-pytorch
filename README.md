@@ -1,5 +1,23 @@
 # aptos-blindness-pytorch
-Kaggle's Aptos Blindness Detection challenge with pytorch
+Kaggle's Aptos Blindness Detection challenge solution using pytorch. This repo is a work in progress. 
+
+## Overview
+
+There is a large set of retina images captured using fundus photography. Training dataset is labelled according to the severity of diabetic retinopathy in following categories.  
+
+```
+0 - No DR
+
+1 - Mild
+
+2 - Moderate
+
+3 - Severe
+
+4 - Proliferative DR
+```
+
+Goal is to predict this severity for a new image. 
 
 ## Requirements 
 following needs to be installed befor running anything :
